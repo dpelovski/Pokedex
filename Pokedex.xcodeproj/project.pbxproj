@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E906A9F11E80315E00C116CB /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = E906A9F01E80315E00C116CB /* pokemon.csv */; };
 		E94E94D61E802D8700E586BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E94D51E802D8700E586BC /* AppDelegate.swift */; };
 		E94E94D81E802D8700E586BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94E94D71E802D8700E586BC /* ViewController.swift */; };
 		E94E94DB1E802D8700E586BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94E94D91E802D8700E586BC /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E906A9F01E80315E00C116CB /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		E94E94D21E802D8700E586BC /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94E94D51E802D8700E586BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E94E94D71E802D8700E586BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				E94E94D71E802D8700E586BC /* ViewController.swift */,
 				E94E94D91E802D8700E586BC /* Main.storyboard */,
 				E94E94DC1E802D8700E586BC /* Assets.xcassets */,
+				E906A9F01E80315E00C116CB /* pokemon.csv */,
 				E94E94DE1E802D8700E586BC /* LaunchScreen.storyboard */,
 				E94E94E11E802D8700E586BC /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				E94E94E01E802D8700E586BC /* LaunchScreen.storyboard in Resources */,
 				E94E94DD1E802D8700E586BC /* Assets.xcassets in Resources */,
+				E906A9F11E80315E00C116CB /* pokemon.csv in Resources */,
 				E94E94DB1E802D8700E586BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				E94E94E61E802D8700E586BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
